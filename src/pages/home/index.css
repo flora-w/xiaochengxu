@@ -1,0 +1,104 @@
+.ant-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+  }
+  
+  .ant-upload-select-picture-card .ant-upload-text {
+    margin-top: 8px;
+    color: #666;
+  }
+  #outsideBox{
+     
+      /* max-width:800px;
+      max-height:500px; */
+      width:960px;
+      /* height:500px; */
+      
+      margin:0 auto;
+      overflow: auto;
+  }
+  .ant-upload-text{
+    font-size: 100px;
+    line-height:59px;
+  }
+ 
+/* body{
+ 
+} */
+button.ant-btn.ant-btn-primary{
+  margin-top:40px;
+  margin-bottom: 10px;
+  width:102px;
+}
+
+span.ant-upload-picture-card-wrapper{
+  border-bottom: 10px solid #f0f0f0;
+  /* border-top: 1px dashed saddlebrown; */
+  padding-top:10px;
+  border-right: 1px solid lightskyblue;
+}
+.ant-upload.ant-upload-select-picture-card > .ant-upload {
+  padding:0;
+  vertical-align: 0;
+}
+
+.ant-upload.ant-upload-select.ant-upload-select-picture-card:hover .ant-upload-text{
+  color:red;
+  transition: all .6s;
+}
+#boxWrapper{
+  line-height: 20px;
+}
+#header-nav{
+  width:100%;
+  height:10px;
+  background: #f0f0f0;
+  line-height: 20px;
+  overflow: hidden;
+}
+#one{
+  width:5px;
+  height:10px;
+  background: #fff;
+  float: left;
+  margin-left: 10px;
+}
+#two{
+  width:8px;
+  height:10px;
+  margin-left: 10px;
+  float: left;
+  background: #fff;
+}
+#three{
+  width:10px;
+  height:10px;
+  margin-left: 10px;
+  float: left;
+  background: #fff;
+}
+.ant-upload.ant-upload-select.ant-upload-select-picture-card{
+  overflow: hidden;
+}
+.ant-tooltip-inner{
+  display: none;
+  } 
+
+
+
+  /*  */
+
+
+.showPic{
+  margin:20px auto ;
+}
+  .showPic>.liPic{
+    float:left;
+    list-style: none;
+    width:200px;
+    height:150px;
+  }
+  .showPic>.liPic>img{
+   width:100%;
+   height: 100%;
+  }
